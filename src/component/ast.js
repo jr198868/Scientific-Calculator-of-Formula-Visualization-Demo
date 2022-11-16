@@ -212,7 +212,8 @@ const handleChange_node = event => {
           </div>
           <div class='column'>
           <div class='blue-column'>
-            <p style={{ fontSize: '18px', color: 'black'}}>Input node number and click "Delete" to remove node</p>
+            <p style={{ fontSize: '16px', color: 'black'}}>Input node number and click "Delete" to remove node</p>
+            <p style={{ fontSize: '16px', color: 'black'}}>Click tree nodes, you can "hide" the node that you selected </p>
               <form  noValidate autoComplete="off">
                 <TextField 
                 style = {{width: '250px', height: '50px'}}

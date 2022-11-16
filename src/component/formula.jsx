@@ -68,6 +68,9 @@ export default function ChipsArray() {
         <p style = {{color: 'black'}}>
             Formula example: ($b + SQRT (SQR($b) - 4 * $a)) / (2 * $a)
         </p>
+        <p style = {{color: 'black'}}>
+            Copy and paste the formula example to input form and run "visualize formula"
+        </p>
         <div>
             <form  noValidate autoComplete="off">
                 <TextField 
