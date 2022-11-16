@@ -9,21 +9,21 @@ var astTree = require('../assets/ast.json')
 
 export default function AstTree() {
 
-  var [node, setMessage] = useState('');
-  var [treedata, setMessage_node] = useState(astTree);
+  var [node, setMessage] = useState('')
+  var [treedata, setMessage_node] = useState(astTree)
 
   const handleChange = event => {
-    event.preventDefault(); 
-    setMessage(event.target.value);
-  };
+    event.preventDefault() 
+    setMessage(event.target.value)
+  }
 
   const handleChange_reset = event => {
-    event.preventDefault(); 
+    event.preventDefault()
     setMessage_node(astTree)
   };
 
 const handleChange_node = event => {
-  event.preventDefault(); 
+  event.preventDefault()
   if (node === '1') {
     setMessage_node({name: '($b + SQRT (SQR($b) - 4 * $a)) / (2 * $a)', children: [astTree['children'][1], astTree['children'][2]]})
   }

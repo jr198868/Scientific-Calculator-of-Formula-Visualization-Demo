@@ -4,7 +4,6 @@ import Chip from '@mui/material/Chip';
 import Paper from '@mui/material/Paper';
 import TextField from '@material-ui/core/TextField';
 import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
 
 const ListItem = styled('li')(({ theme }) => ({
   margin: theme.spacing(0.5),
@@ -18,6 +17,7 @@ export default function ChipsArray() {
     var chip_data = []
     var pointer = 0
     var tmp = ""
+
     while (pointer < formula.length) {
         
         if ('+-*/()[]{}'.includes(formula[pointer])) {
