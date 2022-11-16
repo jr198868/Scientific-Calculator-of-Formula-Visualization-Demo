@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## About this project 🚀：
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt text](https://github.com/jr198868/Scientific-Calculator-of-Formula-Visualization-Demo/blob/main/src/assets/project_interface.png)
 
 ## Available Scripts
 
