@@ -1,0 +1,191 @@
+{
+    "name": "($b + SQRT (SQR($b) - 4 * $a)) / (2 * $a)",
+    "children": [
+        {
+          "name": "+",
+          "attributes": {
+            "Node": "1"
+          },
+          "children": [
+            {
+              "name": "$b",
+              "attributes": {
+                "Node": "4"
+              }
+              
+            },
+            {
+              "name": "(+)",
+              "attributes": {
+                "Node": "5"
+              }
+            },
+            {
+              "name": "+",
+              "attributes": {
+                "Node": "6"
+              },
+              "children": [
+                {
+                  "name": "+",
+                  "attributes": {
+                    "Node": "10"
+                  },
+                  "children": [
+                    {
+                      "name": "SQRT",
+                      "attributes": {
+                        "Node": "14"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "+",
+                  "attributes": {
+                    "Node": "11"
+                  },
+                  "children": [
+                    {
+                      "name": "+",
+                      "attributes": {
+                        "Node": "15"
+                      },
+                      "children": [
+                        {
+                          "name": "+",
+                          "attributes": {
+                            "Node": "16"
+                          },
+                          "children": [
+                            {
+                              "name": "SQR",
+                              "attributes": {
+                                "Node": "19"
+                              }
+                            },
+                            {
+                              "name": "+",
+                              "attributes": {
+                                "Node": "20"
+                              },
+                              "children": [
+                                {
+                                  "name": "$b",
+                                  "attributes": {
+                                    "Node": "24"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "-",
+                          "attributes": {
+                            "Node": "17"
+                          }
+                        },
+                        {
+                          "name": "+",
+                          "attributes": {
+                            "Node": "18"
+                          },
+                          "children": [
+                            {
+                              "name": "+",
+                              "attributes": {
+                                "Node": "21"
+                              },
+                              "children": [
+                                {
+                                  "name": "4",
+                                  "attributes": {
+                                    "Node": "25"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "*",
+                              "attributes": {
+                                "Node": "22"
+                              }
+                            },
+                            {
+                              "name": "+",
+                              "attributes": {
+                                "Node": "23"
+                              },
+                              "children": [
+                                {
+                                  "name": "$a",
+                                  "attributes": {
+                                    "Node": "26"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "(/)",
+          "attributes": {
+            "Node": "2"
+          }
+        },
+        {
+          "name": "+",
+          "attributes": {
+            "Node": "3"
+          },
+          
+          "children": [
+            {
+              "name": "(+)",
+              "attributes": {
+                "Node": "7"
+              },
+              "children": [
+                {
+                  "name": "2",
+                  "attributes": {
+                    "Node": "12"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "*",
+              "attributes": {
+                "Node": "8"
+              }
+  
+            },
+            {
+              "name": "+",
+              "attributes": {
+                "Node": "9"
+              },
+              "children": [
+                {
+                  "name": "$a",
+                  "attributes": {
+                    "Node": "13"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+    ]
+  }
+  

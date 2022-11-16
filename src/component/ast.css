@@ -1,0 +1,33 @@
+.some-page-wrapper {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1
+  }
+  
+  .orange-column {
+    background-color: orange;
+    height: 1100px;
+  }
+  
+  .blue-column {
+    height: 1000px;
+  }
+  
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 4
+  }
