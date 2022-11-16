@@ -1,7 +1,7 @@
 ## About this project 🚀：
 Front-end tech stack: React.js  
-Framwork: Material-UI (MUI) library
-Visualization tools: D3.js, MUI chips  
+Framwork: Material-UI (MUI) library  
+Visualization tools: D3.js, MUI chips   
 
 ![alt text](https://github.com/jr198868/Scientific-Calculator-of-Formula-Visualization-Demo/blob/main/src/assets/project_interface.png)
 ![alt text](https://github.com/jr198868/Scientific-Calculator-of-Formula-Visualization-Demo/blob/main/src/assets/project_interface2.png)
