@@ -13,31 +13,31 @@ export default function ChipsArray() {
    
     var [formula, setMessage] = useState('')
     var [chipData, setChipData] = useState([])
-    var chip_string = []
     var chip_data = []
+    var chip_string = []
     var pointer = 0
     var tmp = ""
 
     while (pointer < formula.length) {
         
-        if ('+-*/()[]{}'.includes(formula[pointer])) {
+        if ('+-*/()[]{}|'.includes(formula[pointer])) {
             chip_string.push(formula[pointer])
             pointer++;
         }
-        if (formula[pointer] === '') {
-            continue
-        }
         else {
             tmp += formula[pointer]
-            if ('+-*/()[]{}'.includes(formula[pointer+1])) {
+            if ('+-*/()[]{}|'.includes(formula[pointer+1])) {
+              if (tmp) {
                 chip_string.push(tmp)
                 tmp = ""
-             }
-             pointer++
+              }
+            }
+            pointer++
         }
       }
     console.log(chip_string)
 
+    var chip_data = []
     var index = 0
     for (let i = 0; i < chip_string.length; i++) {
         var chipdict = new Object()
@@ -70,6 +70,9 @@ export default function ChipsArray() {
         </p>
         <p style = {{color: 'black'}}>
             Copy and paste the formula example to input form and run "visualize formula"
+        </p>
+        <p style = {{color: 'black'}}>
+            Note: Put you input into a parentheses as a valid input e.g., ($a+$b)
         </p>
         <div>
             <form  noValidate autoComplete="off">
